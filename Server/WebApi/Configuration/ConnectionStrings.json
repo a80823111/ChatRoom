@@ -1,0 +1,14 @@
+﻿{
+  "ConnectionStrings": {
+    "SqlServer": "Data Source=127.0.0.1;Initial Catalog=Date;User ID=sa;Password=000000",
+    "MongoDbServer": {
+      "ConnectionString": "mongodb://localhost:27017",
+      "DatabaseName": "ChatServer"
+    },
+    "MongoDbLog": {
+      "ConnectionString": "mongodb://localhost:27017",
+      "DatabaseName": "DateLog"
+    }
+  }
+
+}

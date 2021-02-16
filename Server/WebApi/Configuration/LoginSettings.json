@@ -1,0 +1,18 @@
+﻿{
+  "LoginSettings": {
+    "Jwt": {
+      //簽發
+      "Issuer": "1234567890123456sdffsdsfdfsdfsdddddddddddddddddddddddddddddddddddddddddddddddddddd",
+      //密鑰 至少要 16 字元以上
+      "SignKey": "1234567890123456sdffsdsfdfsdfsdddddddddddddddddddddddddddddddddddddddddddddddddddd",
+      "Audience": "Audience",
+      //過期時間 單位 分鐘
+      "Expiration": "100000"
+    },
+    "Web": {
+      //過期時間 單位 分鐘
+      "Expiration": "60"
+    },
+    "HashPasswordSalt": "Project"
+  }
+}
